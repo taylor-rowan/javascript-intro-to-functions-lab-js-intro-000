@@ -21,3 +21,17 @@ function logShout(string) {
 function logWhisper(string) {
   console.log(string.toLowerCase());
 };
+
+// function with different responces to upper/lowercase
+
+function sayHiToGrandma(string) {
+  if (string === string.toLowerCase()) {
+    return "I can't hear you!";
+  };
+  if (string === string.toUpperCase()) {
+    return "YES INDEED!";
+  };
+  if (string === "I love you, Grandma.") {
+    return "I love you, too.";
+  };
+}
